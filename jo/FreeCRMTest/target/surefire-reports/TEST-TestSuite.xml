@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="9" failures="0" name="TestSuite" time="5.502" errors="0" skipped="0">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="Test_job"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/Test_job/15/display/redirect?page=tests"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="/Users/poorna/.jenkins"/>
+    <property name="PATH" value="/Users/poorna/.jenkins/tools/hudson.model.JDK/test_jdk/bin:/usr/bin:/bin:/usr/sbin:/sbin"/>
+    <property name="HUDSON_SERVER_COOKIE" value="4a84ccff5b287574"/>
+    <property name="POM_ARTIFACTID" value="FreeCRMTest"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.boot.class.path" value="/Users/poorna/.jenkins/tools/hudson.model.JDK/test_jdk/jre/lib/resources.jar:/Users/poorna/.jenkins/tools/hudson.model.JDK/test_jdk/jre/lib/rt.jar:/Users/poorna/.jenkins/tools/hudson.model.JDK/test_jdk/jre/lib/sunrsasign.jar:/Users/poorna/.jenkins/tools/hudson.model.JDK/test_jdk/jre/lib/jsse.jar:/Users/poorna/.jenkins/tools/hudson.model.JDK/test_jdk/jre/lib/jce.jar:/Users/poorna/.jenkins/tools/hudson.model.JDK/test_jdk/jre/lib/charsets.jar:/Users/poorna/.jenkins/tools/hudson.model.JDK/test_jdk/jre/lib/jfr.jar:/Users/poorna/.jenkins/tools/hudson.model.JDK/test_jdk/jre/classes"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="FreeCRMTest"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="java.runtime.version" value="1.8.0_221-b11"/>
+    <property name="user.name" value="poorna"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="Test_job"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/Test_job/15/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#15"/>
+    <property name="TMPDIR" value="/var/folders/d4/5dn10c454_d51qlh1k3xqvjh0000gn/T/"/>
+    <property name="sun.boot.library.path" value="/Users/poorna/.jenkins/tools/hudson.model.JDK/test_jdk/jre/lib"/>
+    <property name="java.version" value="1.8.0_221"/>
+    <property name="XPC_FLAGS" value="0x0"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.endorsed.dirs" value="/Users/poorna/.jenkins/tools/hudson.model.JDK/test_jdk/jre/lib/endorsed"/>
+    <property name="BUILD_ID" value="15"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="SHELL" value="/bin/bash"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="/Users/poorna/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/testMaven/conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="java.home" value="/Users/poorna/.jenkins/tools/hudson.model.JDK/test_jdk/jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.16"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/Test_job/15/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/Test_job/15/display/redirect?page=artifacts"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.version" value="25.221-b11"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/Test_job/display/redirect"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="JAVA_HOME" value="/Users/poorna/.jenkins/tools/hudson.model.JDK/test_jdk"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="LOGNAME" value="poorna"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="HOME" value="/Users/poorna"/>
+    <property name="POM_GROUPID" value="FreeCRMTestAutomation"/>
+    <property name="user.home" value="/Users/poorna"/>
+    <property name="BUILD_TAG" value="jenkins-Test_job-15"/>
+    <property name="JENKINS_SERVER_COOKIE" value="4a84ccff5b287574"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="XPC_SERVICE_NAME" value="homebrew.mxcl.jenkins-lts"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.library.path" value="/Users/poorna/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="/Users/poorna/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/testMaven"/>
+    <property name="java.class.path" value="/Users/poorna/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-agent-1.13.jar:/Users/poorna/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/testMaven/boot/plexus-classworlds-2.6.0.jar:/Users/poorna/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/testMaven/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main /Users/poorna/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/testMaven /Users/poorna/.jenkins/war/WEB-INF/lib/remoting-4.6.jar /Users/poorna/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.13.jar /Users/poorna/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.13.jar 55399"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PATH+JDK" value="/Users/poorna/.jenkins/tools/hudson.model.JDK/test_jdk/bin"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="JAVA_MAIN_CLASS_538" value="Main"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="/Users/poorna/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/testMaven"/>
+    <property name="java.io.tmpdir" value="/var/folders/d4/5dn10c454_d51qlh1k3xqvjh0000gn/T/"/>
+    <property name="HUDSON_HOME" value="/Users/poorna/.jenkins"/>
+    <property name="PATH+MAVEN" value="/Users/poorna/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/testMaven/bin"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/Test_job/15/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.tmbBdDKMCg/Listeners"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.ext.dirs" value="/Users/poorna/Library/Java/Extensions:/Users/poorna/.jenkins/tools/hudson.model.JDK/test_jdk/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="__CF_USER_TEXT_ENCODING" value="0x1F5:0x0:0x0"/>
+    <property name="user.dir" value="/Users/poorna/Documents/JavaTraining/FreeCRMTest"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/Test_job/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="MAVEN_HOME" value="/Users/poorna/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/testMaven"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="15"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="maven3.interceptor" value="/Users/poorna/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.13.jar"/>
+    <property name="WORKSPACE_TMP" value="/Users/poorna/.jenkins/&quot;/Users/poorna/Documents/JavaTraining/FreeCRMTest/&quot;@tmp"/>
+    <property name="WORKSPACE" value="/Users/poorna/.jenkins/&quot;/Users/poorna/Documents/JavaTraining/FreeCRMTest/&quot;"/>
+    <property name="maven3.interceptor.common" value="/Users/poorna/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.13.jar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="USER" value="poorna"/>
+  </properties>
+  <testcase classname="com.crm.qa.testcases.ContactsPageTest" name="verifyContactsLinkTest" time="0.05"/>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="verifyHomePageTitleTest" time="0.017"/>
+  <testcase classname="com.crm.qa.testcases.LoginPageTest" name="loginPageTitleTest" time="0.006"/>
+  <testcase classname="com.crm.qa.testcases.ContactsPageTest" name="verifyShowFilterLabel" time="0.033"/>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="verifyCurrectUserNameTest" time="0.62"/>
+  <testcase classname="com.crm.qa.testcases.LoginPageTest" name="crmLogoImageTest" time="1.669"/>
+  <testcase classname="com.crm.qa.testcases.ContactsPageTest" name="verifySingleSelectContactByNameTest" time="0.051"/>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="verifyClickOnContactLink" time="0.793"/>
+  <testcase classname="com.crm.qa.testcases.LoginPageTest" name="loginTest" time="2.263"/>
+</testsuite>
